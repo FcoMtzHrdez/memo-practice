@@ -6,7 +6,7 @@ pipeline {
         stage('Ejecutar comandos de Bash') {
             steps {
                 sh '''
-                echo hola mundo
+                echo $variable
                                     '''
             }
         }
